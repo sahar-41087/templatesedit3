@@ -25,7 +25,7 @@
     .input-group-lg > textarea.form-control { height: inherit }
     .image_for_field[data-image] { display: block; content: ""; width: 120px; height: 120px; margin: .1rem .1rem 0 0; border: 1px #ccc solid; background: #fff 50% 50% no-repeat; background-size: contain; cursor: pointer }
     .image_for_field[data-image=""] { display: none }
-    .choicesList { float: left; padding: .25rem 0; width: 100% }
+    .choicesList { float: left; padding: .25rem 0; width: 100%;max-height:250px; margin-bottom:10px;overflow-y:auto;}
     .choicesList::after { content: ""; display: table; width: 100% }
     .choicesList i { float: left; padding: .15rem .35rem; margin: 0 .35rem .35rem 0; min-width: 1rem; text-align: center; font: normal .75rem/normal sans-serif; line-height: 1; background-color: rgba(130, 130, 130, 0.2); border-radius: .35rem; cursor: pointer }
     .choicesList i.selected { color: #fff; background-color: #1976d2 }
