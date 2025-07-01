@@ -86,14 +86,6 @@ return [
         'title' => $_lang['page_data_cacheable'],
         'help' => $_lang['page_data_cacheable_help']
     ],
-    'createdon' => [
-        'title' => $_lang['createdon'],
-        'help' => $_lang['createdon']
-    ],
-    'editedon' => [
-        'title' => $_lang['editedon'],
-        'help' => $_lang['editedon']
-    ],
     'menutitle' => [
         'title' => $_lang['resource_opt_menu_title'],
         'help' => $_lang['resource_opt_menu_title_help']
